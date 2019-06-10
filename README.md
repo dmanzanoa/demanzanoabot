@@ -1,2 +1,2 @@
-# demanzanoabot
-Manzano &lt;3 
+# Manzano Telegram Bot
+Manzano :heart:
