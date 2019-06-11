@@ -38,7 +38,7 @@ def help(bot, update):
 	update.message.reply_text('Utiliza /funfact para leer mis frases.')
 	#bot.send_message(chat_id=update.message.chat_id, text="Utiliza /funfact para leer mis frases.")
 
-def error(update, context):
+def error(bot, update, context):
 	"""Log Errors caused by Updates."""
 	logger.warning('Update "%s" caused error "%s"', update, context.error)
 
